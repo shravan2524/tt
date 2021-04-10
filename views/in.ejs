@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    .container{
+        display: flex;
+    }
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20rem;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+p{
+  margin: 3rem 0 0 0rem;
+  text-align: center;
+
+}
+</style>
+</head>
+<body>
+
+<h2>Card</h2>
+<div class="container">
+    <div class="card">
+      <img src="" alt="Avatar" style="width:300px; height: 200px;">
+      <div class="container">
+        <h4><b>Screw-Driver</b></h4>
+        <br>
+        <p>Avaialability <%= screw %></p>
+      </div>
+    </div>
+    
+    <div class="card">
+      <img src="../images/clamp.jpg" alt="Avatar" style="width:300px; height: 200px;">
+      <div class="container">
+        <h4><b>PaperBag</b></h4>
+        <p>Avaialability  <%= paperBag %></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="" alt="Avatar" style="width:300px; height: 200px;">
+      <div class="container">
+        <h4><b>Glass</b></h4>
+        <p>Avaialability  <%= glass %></p>
+      </div>
+    </div><div class="card">
+      <img src="" alt="Avatar" style="width:300px; height: 200px;">
+      <div class="container">
+        <h4><b>Clamp</b></h4>
+        <p>Avaialability  <%= clamp %></p>
+      </div>
+    </div>
+    
+    
+  
+</div>
+
+</body>
+</html> 
